@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font - Inter -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS File -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Luster - Ecommerce Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-------------- NAVBAR --------------->
+
+      <header>
+        <nav class="shift">
+          <div class="nav-items">
+            <ul>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <img src="./images/Luster Logo.svg" alt="logo" loading="lazy" />
+        <div class="nav-right">
+          <form action="/search" class="form-item w-form">
+            <input
+              type="search"
+              class="form-input search w-input"
+              maxlength="256"
+              name="query"
+              placeholder="Search"
+              id="search"
+              required=""
+            />
+            <input type="submit" value="" class="form-button-hidden w-button" />
+          </form>
+          <div>
+            <a href="#" class="cart-style cart-button">
+              <img
+                src="./images/Cart Icon.svg"
+                alt="cart-icon"
+                class="cart-icon"
+              />
+              <div class="zero">0</div>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!------------ HERO-SECTION --------------->
+
+      <section class="hero-sec">
+        <div class="card-styling">
+          <div class="hero-card">
+            <h1>All-Natural Skin Care Made for You and the Planet</h1>
+            <p>
+              Explore best-selling safe, natural, and 100% toxin-free beauty
+              products from Luster.
+            </p>
+            <button class="w-button">Shop Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!------------ PRODUCTS-SECTION ------------->
+
+      <section class="section-start">
+        <div class="head-div">
+          <h2>Shop by Category</h2>
+          <a href="#" class="transition-style"
+            >VIEW ALL PRODUCTS
+            <img src="./images/Category Arrow.svg" alt="Arrow" loading="lazy" />
+          </a>
+        </div>
+
+        <div class="products">
+          <ul>
+            <li>
+              <img
+                src="./images/Category Cleaner.jpg"
+                alt="cleanser"
+                loading="lazy"
+              />
+              <h3>Cleansers</h3>
+            </li>
+            <li>
+              <img
+                src="./images/Category Serum.jpg"
+                alt="cleanser"
+                loading="lazy"
+              />
+              <h3>Serum</h3>
+            </li>
+            <li>
+              <img
+                src="./images/Category Moisturizer.jpg"
+                alt="cleanser"
+                loading="lazy"
+              />
+              <h3>Moisturizer</h3>
+            </li>
+            <li>
+              <img
+                src="./images/Category Kit.jpg"
+                alt="cleanser"
+                loading="lazy"
+              />
+              <h3>Kit</h3>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hz-line"></div>
+      </section>
+
+      <!------------- PRODUCTS-SECTION 2 -------------->
+
+      <section class="section-start">
+        <h1 class="heading1">Need Some Help Choosing?</h1>
+        <div class="catagory">
+          <img
+            src="./images/Category Starter Kits.jpg"
+            alt="Starter kits"
+            loading="lazy"
+          />
+          <img
+            src="./images/Category Best Sellers.jpg"
+            alt="best-sellers"
+            loading="lazy"
+          />
+        </div>
+        <div class="titles">
+          <div class="product-explo">
+            <h2>Starter Kits</h2>
+            <div class="button tertiary on-dark">Shop Now</div>
+          </div>
+          <div class="product-explo">
+            <h2>Best-Sellers</h2>
+            <div class="button tertiary on-dark">Shop Now</div>
+          </div>
+        </div>
+      </section>
+
+      <!------------- TESTIMONIAL-SECTION ----------------->
+
+      <section class="section-start">
+        <div class="content-box">
+          <div class="stars">
+            <img
+              src="./images/Testimonial Star.svg"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              src="./images/Testimonial Star.svg"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              src="./images/Testimonial Star.svg"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              src="./images/Testimonial Star.svg"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              src="./images/Testimonial Star.svg"
+              alt="star"
+              loading="lazy"
+            />
+          </div>
+          <h1>
+            “These products have simplified my entire skin care routine <br />
+            and my skin has never been better!”
+          </h1>
+          <h5>JENNIFER, LOS ANGELES</h5>
+        </div>
+      </section>
+
+      <!-------------- FEATURE-SECTION ------------------->
+
+      <section class="section-start">
+        <div class="main-div">
+          <img
+            src="./images/Home Image Shop.jpg"
+            alt="hero-image"
+            loading="lazy"
+            class="hero-img-shop"
+          />
+          <div class="content">
+            <h1>
+              All-Natural and Organic <br />
+              Ingredients, Every <br />
+              Time.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Id tortor amet <br />
+              aliquet vestibulum. Bibendum placerat sed quam a est. Vel <br />
+              aenean massa volutpat.
+            </p>
+            <ul>
+              <li>
+                <img src="./images/Icon 1.svg" alt="icon" loading="lazy" />
+                <h4>Simple, effective formulas</h4>
+              </li>
+              <li>
+                <img src="./images/Icon 2.svg" alt="icon" loading="lazy" />
+                <h4>100% organic ingredients</h4>
+              </li>
+              <li>
+                <img src="./images/Icon 3.svg" alt="icon" loading="lazy" />
+                <h4>Never tested on animals</h4>
+              </li>
+            </ul>
+            <button class="button w-button" style="margin-top: 1.8rem">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--------------- ANIMATED-TEXT-SECTION ----------------->
+
+      <section class="animated-section">
+        <div class="text-marquee">
+          <div
+            class="text-marquee-row top"
+            style="
+              will-change: transform;
+              transform: translate3d(4%, 0px, 0px) scale3d(1, 1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+            "
+          >
+            <div class="text-marquee-block">
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+            </div>
+          </div>
+          <div
+            class="text-marquee-row bottom"
+            style="
+              will-change: transform;
+              transform: translate3d(-4%, 0px, 0px) scale3d(1, 1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+            "
+          >
+            <div class="text-marquee-block">
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+            </div>
+            <div class="text-marquee-block">
+              <div class="marquee-text">Simple, Effective Formulas</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">All-Natural Ingredients</div>
+              <div class="marquee-text">—</div>
+              <div class="marquee-text">Never Tested on Animals</div>
+              <div class="marquee-text">—</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------- ABOUT-SECTION --------------------->
+
+      <section class="section-start">
+        <div class="main-div" style="margin-top: 3rem">
+          <div class="contentbox">
+            <h1>Making Skin Care More Accessible</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Pretium sit massa <br />
+              semper vestibulum tellus ut tristique. Nibh placerat in id <br />
+              vestibulum lacus tellus non. Iaculis natoque gravida <br />
+              bibendum parturient.
+            </p>
+            <button
+              class="button w-button"
+              style="
+                margin-top: 1.8rem;
+                color: #2660ff;
+                background-color: #eef4ff;
+              "
+            >
+              Read Our Story
+            </button>
+          </div>
+          <img
+            src="./images/Home Image About.jpg"
+            alt="hero-img-about"
+            loading="lazy"
+            style="width: 770px; border-radius: 20px; margin-right: 5rem"
+          />
+        </div>
+      </section>
+
+      <!------------------- NEWSLETTER-SECTION ------------------->
+
+      <section class="newsletter-sec">
+        <h1>
+          Subscribe for Exclusive Discounts <br />
+          and Skin Care Tips
+        </h1>
+        <div class="newsletter-form w-form">
+          <form
+            id="wf-form-Newsletter-Form"
+            name="wf-form-Newsletter-Form"
+            data-name="Newsletter Form"
+            method="get"
+            class="form-item"
+            data-wf-page-id="64c2d23a213b66830a983e4d"
+            data-wf-element-id="cdb25392-bca5-2747-9d62-06568d09284b"
+            aria-label="Newsletter Form"
+          >
+            <input
+              type="email"
+              class="form-input newsletter w-input"
+              maxlength="256"
+              name="email-2"
+              data-name="Email 2"
+              placeholder="Enter your email"
+              id="email-2"
+              required=""
+            /><input
+              type="submit"
+              value=""
+              data-wait=""
+              class="form-button-hidden w-button"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!------------------- FOOTER ---------------------->
+
+      <footer>
+        <div class="div1">
+          <img
+            src="./images/Luster Logo White.svg"
+            alt="logo"
+            loading="lazy"
+            style="width: 150px"
+          />
+          <p style="color: white; font-size: 14px">
+            &copy; Luster 2023. All rights reserved.
+          </p>
+        </div>
+        <div class="div">
+          <h3 class="footer-titles">Shop</h3>
+          <a href="#">All Products</a>
+          <a href="#">Starter Kits</a>
+          <a href="#">Bestsellers</a>
+          <a href="#">Cleanser</a>
+          <a href="#">Serum</a>
+          <a href="#">Moisturizer</a>
+          <a href="#">Kit</a>
+        </div>
+        <div class="div">
+          <h3 class="footer-titles">Company</h3>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="div">
+          <h3 class="footer-titles">Admin</h3>
+          <a href="#">Style guide</a>
+          <a href="#">Licences</a>
+          <a href="#">Instructions</a>
+          <a href="#">Changelog</a>
+          <a href="#">Components</a>
+          <a href="#">Password</a>
+          <a href="#">404</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
